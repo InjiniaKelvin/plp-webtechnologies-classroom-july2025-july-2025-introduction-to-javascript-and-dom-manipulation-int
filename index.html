@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Fundamentals Assignment</h1>
+        <p>Exploring variables, functions, loops, and DOM manipulation</p>
+    </header>
+
+    <main>
+        <!-- Part 1: Variables and Conditionals -->
+        <section id="part1" class="assignment-section">
+            <h2>Part 1: Variables and Conditionals</h2>
+            <div class="interactive-area">
+                <h3>Age Calculator & Category</h3>
+                <input type="number" id="ageInput" placeholder="Enter your age" min="0" max="120">
+                <button id="checkAge">Check Age Category</button>
+                <div id="ageResult" class="result-display"></div>
+            </div>
+
+            <div class="interactive-area">
+                <h3>Grade Calculator</h3>
+                <input type="number" id="scoreInput" placeholder="Enter score (0-100)" min="0" max="100">
+                <button id="calculateGrade">Calculate Grade</button>
+                <div id="gradeResult" class="result-display"></div>
+            </div>
+        </section>
+
+        <!-- Part 2: Custom Functions -->
+        <section id="part2" class="assignment-section">
+            <h2>Part 2: Custom Functions</h2>
+            <div class="interactive-area">
+                <h3>Calculator Functions</h3>
+                <input type="number" id="num1" placeholder="First number">
+                <input type="number" id="num2" placeholder="Second number">
+                <div class="button-group">
+                    <button id="addBtn">Add</button>
+                    <button id="multiplyBtn">Multiply</button>
+                    <button id="powerBtn">Power</button>
+                </div>
+                <div id="calculatorResult" class="result-display"></div>
+            </div>
+
+            <div class="interactive-area">
+                <h3>Text Formatter</h3>
+                <input type="text" id="textInput" placeholder="Enter some text">
+                <div class="button-group">
+                    <button id="formatUpperBtn">UPPERCASE</button>
+                    <button id="formatTitleBtn">Title Case</button>
+                    <button id="reverseBtn">Reverse</button>
+                </div>
+                <div id="textResult" class="result-display"></div>
+            </div>
+        </section>
+
+        <!-- Part 3: Loops -->
+        <section id="part3" class="assignment-section">
+            <h2>Part 3: Loops</h2>
+            <div class="interactive-area">
+                <h3>Number Pattern Generator</h3>
+                <input type="number" id="patternNum" placeholder="Enter a number (1-10)" min="1" max="10">
+                <button id="generatePattern">Generate Pattern</button>
+                <div id="patternResult" class="result-display"></div>
+            </div>
+
+            <div class="interactive-area">
+                <h3>Array Operations</h3>
+                <button id="generateArray">Generate Random Array</button>
+                <button id="processArray">Process Array</button>
+                <div id="arrayResult" class="result-display"></div>
+            </div>
+
+            <div class="interactive-area">
+                <h3>Countdown Timer</h3>
+                <input type="number" id="countdownNum" placeholder="Countdown from" min="1" max="20">
+                <button id="startCountdown">Start Countdown</button>
+                <div id="countdownResult" class="result-display"></div>
+            </div>
+        </section>
+
+        <!-- Part 4: DOM Manipulation -->
+        <section id="part4" class="assignment-section">
+            <h2>Part 4: DOM Manipulation</h2>
+            <div class="interactive-area">
+                <h3>Theme Toggler</h3>
+                <button id="themeToggle">Toggle Dark Mode</button>
+                <p id="themeStatus">Current theme: Light</p>
+            </div>
+
+            <div class="interactive-area">
+                <h3>Dynamic List Manager</h3>
+                <input type="text" id="listInput" placeholder="Add item to list">
+                <button id="addItem">Add Item</button>
+                <button id="clearList">Clear All</button>
+                <ul id="dynamicList"></ul>
+            </div>
+
+            <div class="interactive-area">
+                <h3>Interactive Card</h3>
+                <div id="interactiveCard" class="card">
+                    <h4>Click me!</h4>
+                    <p>I change when you interact with me</p>
+                </div>
+                <button id="resetCard">Reset Card</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>JavaScript Fundamentals Assignment - Demonstrating Variables, Functions, Loops, and DOM</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
